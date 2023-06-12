@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9f9f9f;
+    color: white;
+}
+
+.gym-information{
+    text-align: center;
+}
+
+.header-tag{
+    display: flex;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+
+.social-media-list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+.social-media-list, li, img{
+    height: 30px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    background-color: black;
+    color: white;
+}
+
+.reasons-to-join{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1170px;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.equipment, .massages, .staff, .workshops{
+    max-width: 25%;
+}
+
+.third-section{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 70px;
+    grid-auto-rows: 100%;
+    grid-gap: 5px 10px;
+    grid-template-columns: auto auto;
+}
+
+.training{
+    display: flex;
+    align-items: center;
+}
+
+.third-section img{
+    height: 70%;
+    width: 100%;
+}
+
+.training a, .ciclying a, .care a, .balance a, .fit-training a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+.fit-training-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.fit-training{
+    color: white;
+}
+
+#training-prices{
+    background-image: url("./website.images/gym-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:70px;
+    color: white;
+    display: flex;
+    text-align: center;
+    gap: 25px;
+}
+
+#fcycle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #9f9f9f;
+}
+
+.fit-ciclying a, .fit-care-div a, .fit-balance-div a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+.packages{
+    display: flex;
+    background-color: black;
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 70px;
+}
+
+.fit-cycling-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./website.images/fit-cyclying.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fit-care-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#fit-balance-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+#fifth-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    padding: 70px;
+}
+
+#sixth-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    padding: 70px;
+}
+
+#gym-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #9f9f9f;
+    color: white;
+}
+
+#gym-footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
